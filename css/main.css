@@ -1,0 +1,189 @@
+body {
+  font-family: "brandon-grotesque",sans-serif;
+  background-color: #f4f2eb;
+  width: 70%;
+  margin: 0 auto;
+  color: #484e51;
+  position: relative;
+}
+
+.horizontal-line {
+	border-bottom: 1px solid #e2e3e4;
+}
+
+.bottom-padding {
+	margin-bottom: 1em;
+}
+
+a {
+	text-decoration: none;
+	color: #484e51;
+}
+
+.options a:hover {
+	text-decoration: none;
+	color: #7FC679;
+    -o-transition:color .2s ease-out;
+    -ms-transition:color .2s ease-out;
+    -moz-transition:color .2s ease-out;
+    -webkit-transition:color .2s ease-out;
+    transition: color .2s ease-out;
+}
+
+.header-title a:hover {
+	text-decoration: none;
+	color: #7FC679;
+    -o-transition:color .2s ease-out;
+    -ms-transition:color .2s ease-out;
+    -moz-transition:color .2s ease-out;
+    -webkit-transition:color .2s ease-out;
+    transition: color .2s ease-out;	
+}
+
+.gallery-caption:hover {
+
+}
+
+/*if in specific html page, link color is permanant*/
+
+/*as mouse moves for xyz pixels, opacity and top get closer to 0 and negative*/
+.header-title {
+	font-size: 2em;
+	padding-top: .75em;
+	padding-bottom: .6em;
+	letter-spacing: 10px;
+}
+
+.options div {
+	display: inline-block;
+	margin: 0.5em;
+	padding: .25em;
+	padding-left: 3em;
+	padding-bottom: .25em;
+	letter-spacing: 3px;
+}
+
+.divider {
+	margin-top: .5em;
+	background-color: white;
+}
+
+.center {
+	text-align: center;
+}
+
+.main-container {
+	width: 100%;
+	padding-top: 2em;
+	margin: 0 auto;
+	/*background-color: white;*/
+	padding-bottom: 4em;
+}
+
+.divider {
+	margin: 0 auto;
+}
+
+.block-container {
+	/*width: 100%;*/
+}
+
+.block-header {
+	padding-top: 2em;
+	font-size: 1.5em;
+}
+
+
+.block {
+	width: 200px;
+	height: 200px;
+	background-color: pink;
+	display: inline-block;
+	margin: 3em;
+}
+
+.card {
+	width: 100%;
+	/*background-color: red;*/
+	
+}
+
+.card-header-descript {
+	width: 70%;
+	margin: 0 auto;
+	padding: 1em;
+}
+
+.card-gallery {
+
+}
+
+.gallery {
+	position: relative;
+}
+
+.gallery-caption {
+	position: absolute;
+	margin-top: 8em;
+	max-width: 200px;
+	color: white;
+}
+
+.gallery-descript {
+	font-size: .75em;
+}
+
+.footer {
+	position: relative;
+	background-color: pink;
+	width: 100%;
+	height: 5em;
+}
+
+.footer-content {
+	font-size: .75em;
+	padding-top: 4.5em;
+	position: relative;
+}
+
+.img-container {
+	width: 43%;
+	margin: 0 auto;
+}
+
+.card-pic {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.card-blocking {
+	display: inline-flex;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.card-descript {
+	width: 35%;
+	
+	margin: 0 7% 0 0;
+}
+
+.card-title {
+	font-size: 1em;
+	border-top: 1px solid #e2e3e4;
+	background-color: #f9fafb;
+	padding: .5em;
+}
+
+.card-body {
+	font-size: .8em;
+	border-bottom: 1px solid #e2e3e4;
+	border-top: 1px solid #e2e3e4;
+	padding: 2.4em;
+	text-align: left;
+}
+
+.goal-descript-container {
+	display: inline-flex;
+	padding: 2.4em 0 0 0;
+}
