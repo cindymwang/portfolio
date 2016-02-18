@@ -1,3 +1,28 @@
+.three-col-container {
+	margin: 0 auto;
+}
+
+.one-third {
+	width: 28.66667%;
+	background-color: pink;
+	height: 15%;
+}
+
+.column:first-child {
+	
+}
+
+.gallery-img {
+	width: 100%;
+	height: auto;
+}
+
+
+.column {
+	float: left;
+	margin-left: 3.5%;
+}
+
 body {
   font-family: "brandon-grotesque",sans-serif;
   background-color: #f4f2eb;
@@ -5,6 +30,10 @@ body {
   margin: 0 auto;
   color: #484e51;
   position: relative;
+}
+
+.intro-container {
+	margin: 0 auto;
 }
 
 .horizontal-line {
@@ -45,8 +74,8 @@ a {
 }
 
 /*if in specific html page, link color is permanant*/
-
 /*as mouse moves for xyz pixels, opacity and top get closer to 0 and negative*/
+
 .header-title {
 	font-size: 2em;
 	padding-top: .75em;
@@ -63,11 +92,6 @@ a {
 	letter-spacing: 3px;
 }
 
-.divider {
-	margin-top: .5em;
-	background-color: white;
-}
-
 .center {
 	text-align: center;
 }
@@ -75,37 +99,30 @@ a {
 .main-container {
 	width: 100%;
 	padding-top: 2em;
-	margin: 0 auto;
-	/*background-color: white;*/
-	padding-bottom: 4em;
+	margin: 0 auto;	
+	height: 100%;
 }
 
 .divider {
 	margin: 0 auto;
+	background-color: white;
+	padding-bottom: 25em;
 }
 
-.block-container {
-	/*width: 100%;*/
-}
-
-.block-header {
-	padding-top: 2em;
+.block-header {	
+	padding: 2em 0 2em 0;
 	font-size: 1.5em;
-}
-
-
-.block {
-	width: 200px;
-	height: 200px;
-	background-color: pink;
-	display: inline-block;
-	margin: 3em;
+	clear: left;
 }
 
 .card {
 	width: 100%;
 	/*background-color: red;*/
 	
+}
+
+.clear {
+	position: relative;
 }
 
 .card-header-descript {
@@ -123,9 +140,10 @@ a {
 }
 
 .gallery-caption {
+	margin: 1em 0 .85em 0;
 	position: absolute;
-	margin-top: 8em;
 	max-width: 200px;
+	max-height: 200px;
 	color: white;
 }
 
@@ -135,9 +153,8 @@ a {
 
 .footer {
 	position: relative;
-	background-color: pink;
 	width: 100%;
-	height: 5em;
+	clear: left;
 }
 
 .footer-content {
@@ -183,7 +200,18 @@ a {
 	text-align: left;
 }
 
+.card-body-no-top {
+	font-size: .8em;
+	border-bottom: 1px solid #e2e3e4;
+	padding: 2.4em;
+	text-align: left;
+}
+
 .goal-descript-container {
 	display: inline-flex;
 	padding: 2.4em 0 0 0;
+}
+
+.card-spacing {
+	margin: 3em;
 }
