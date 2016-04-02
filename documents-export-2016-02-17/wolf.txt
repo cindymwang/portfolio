@@ -1,0 +1,20 @@
+The Girl Who Cried Wolf:
+
+by Aesop Cindy
+
+A shepherd-girl, who watched a flock of sheep near a village, brought out the villagers three or four times by crying out, "Wolf! Wolf!" and when her neighbors came to help her, laughed at them for their pains.
+
+Now if you apply this story to the corporate tech world, it's a girl who's crying that the UX is a painpoint and no one takes her seriously...
+
+and then when Microsoft 8 got released the shepherd-girl laughed all the way to the grave.
+
+This past weekend, I had the pleasure of speaking at the Southeast Women in Computing Conference where I created a dream presentation that combined several of my favorite topics: women in tech, ux design, and fairy tales. 
+
+The original tale by Aesop goes, "A shepherd-girl, who watched a flock of sheep near a village, brought out the villagers three or four times by crying out, "Wolf! Wolf!" and when her neighbors came to help her, laughed at them for their pains."
+
+The modified version by Cindy goes, "A tech girl, who worked with a group of programmers, brought out the coders three or four times by crying out, "UX! UX!" 
+
+....because somehow Microsoft 8 got released and she laughed all the way to the grave.
+
+
+analyzing empathy using metrics
